@@ -4,7 +4,7 @@ COPY . /app
 
 WORKDIR "/app"
 
-RUN pip install fastapi uvicorn
+RUN pip install fastapi uvicorn requests
 
 EXPOSE 80
 
